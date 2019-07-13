@@ -1,0 +1,32 @@
+.button{
+  margin: 2%;
+  padding: 2%;
+  width: 100%;
+  font-family: $raleway;
+  font-weight: $bold;
+
+  &--registrate{
+    background-color: $ball-blue;
+    color: $white;
+
+
+  }
+  &--registrate:hover{
+    background-color: $middle-blue;
+    color: $white;
+
+
+  }
+  &--registrate:focus{
+    background-color: $lavender-gray;
+    color: $white;
+
+
+  }
+  &--iniciar{
+  background-color: $white;
+  color: $nickel;
+
+}
+
+}

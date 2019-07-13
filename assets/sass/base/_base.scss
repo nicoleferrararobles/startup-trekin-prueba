@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  background-color: $white;
+
+}
+
+@keyframes opacidad{
+  0%{
+    opacity: 0;
+  }
+
+  90%{
+    opacity: 2;
+  }
+  100%{
+    opacity: 0;
+  }
+}

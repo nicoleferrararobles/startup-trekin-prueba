@@ -1,0 +1,233 @@
+@media (max-width: 768px) {
+  .grid-container {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 1rem;
+    justify-content: center;
+
+  }
+  .estadisticas__container{
+
+    &__title{
+    text-align: center;
+    font-size: $xxx-large;
+    font-family: $raleway;
+    font-weight: $bold;
+   }
+  }
+
+  .estadisticas{
+
+    &__div{
+      width: 100%;
+      background-color: $white;
+      color: $raising-black;
+      font-size: $small;
+    }
+    img{
+    animation: opacidad 4s ease-in-out 0s infinite;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 1rem;
+    justify-content: center;
+
+  }
+  .estadisticas__container{
+
+    &__title{
+    text-align: center;
+    font-size: $xxx-large;
+    font-family: $raleway;
+    font-weight: $bold;
+   }
+
+
+  }
+
+  .estadisticas{
+    text-align: center;
+
+    &__div{
+      width: 100%;
+      background-color: $white;
+      color: $raising-black;
+      font-size: $small;
+    }
+    img{
+    animation: opacidad 4s ease-in-out 0s infinite;
+    }
+  }
+  .valor{
+
+    width: 100%;
+    min-height: 100%;
+    background-image: url("../images/bg-price.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+
+  }
+
+    .valor__container{
+      padding-top: 15%;
+      padding-bottom: 15%;
+
+      &__title{
+      text-align: center;
+      font-size: $xxx-large;
+      font-family: $raleway;
+      font-weight: $bold;
+     }
+    }
+    .card{
+      width: 100%;
+      background-color: $white;
+      font-family: $raleway;
+      color: $raising-black;
+      padding-bottom: 10%;
+
+    &__title{
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+      h2{
+        font-weight: $bold;
+      }
+      h3{
+        color: $onyx;
+        font-size: $large;
+      }
+    }
+
+    &__divbutton{
+      padding: 5%;
+      margin: auto;
+
+    }
+    &__button{
+      background-color: $ball-blue;
+      color: $white;
+      font-family: $raleway;
+      font-weight: $bold;
+      padding-left: 15%;
+      padding-right: 15%;
+      }
+
+    &__ul{
+      margin: auto;
+      padding: auto;
+      width: 90%;
+      font-size: $x-small;
+      line-height:30px;
+      }
+    }
+
+
+
+
+}
+@media (min-width: 993px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 1rem;
+    justify-content: center;
+
+  }
+  .estadisticas__container{
+
+    &__title{
+    text-align: center;
+    font-size: $xxx-large;
+    font-family: $raleway;
+    font-weight: $bold;
+   }
+}
+
+  .estadisticas{
+
+    &__div{
+      width: 100%;
+      margin: 5%;
+      background-color: $white;
+      color: $raising-black;
+      font-size: $small;
+    }
+    img{
+    animation: opacidad 4s ease-in-out 0s infinite;
+    }
+
+    &__titulo{
+      font-family: $open-sans;
+    }
+  }
+  .precio{
+
+    width: 100%;
+    height: 800px;
+    background-image: url("../images/bg-price.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $white;
+
+  }
+
+  .precio__container{
+    padding-top: 15%;
+
+    &__title{
+    text-align: center;
+    font-size: $xxx-large;
+    font-family: $raleway;
+    font-weight: $bold;
+   }
+  }
+  .card{
+    width: 100%;
+    margin: 5%;
+    background-color: $white;
+    font-family: $raleway;
+    color: $raising-black;
+
+  &__title{
+    margin-top: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+    h2{
+      font-weight: $bold;
+    }
+    h3{
+      color: $onyx;
+      font-size: $large;
+    }
+  }
+
+  &__divbutton{
+    padding: 5%;
+    margin: auto;
+
+  }
+  &__button{
+    background-color: $ball-blue;
+    color: $white;
+    font-family: $raleway;
+    font-weight: $bold;
+    padding-left: 15%;
+    padding-right: 15%;
+    }
+
+  &__ul{
+    margin: auto;
+    padding: auto;
+    width: 90%;
+    font-size: $x-small;
+    line-height:30px;
+    }
+  }
+}

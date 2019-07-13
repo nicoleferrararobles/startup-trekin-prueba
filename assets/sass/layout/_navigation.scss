@@ -1,0 +1,29 @@
+nav {
+  padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  font-family: $raleway;
+
+}
+nav img{
+  width: 3em;
+  height: 3em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  display: flex;
+}
+nav li a {
+  color: black;
+  display: block;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+
+.ul1{
+  width: 20%;
+}
